@@ -1,0 +1,30 @@
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+ float kg,ounce;
+  
+
+//    clrscr();
+
+    printf("C Program to convert  Kilogram to Ounce :  ");
+
+    printf("\n\n Enter Weight in Kilogram  : ");
+	scanf("%f", &kg);
+    
+    ounce = kg*35.274;
+    
+    printf("\n\n %f Kg  =  %f ounce \n",kg,ounce );
+
+
+
+//	getch();
+
+
+
+}
